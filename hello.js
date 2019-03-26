@@ -5,3 +5,7 @@ function hello(){
 }
 
 module.exports = hello;
+
+(function() {
+  console.log('I come from hello.js')
+})()

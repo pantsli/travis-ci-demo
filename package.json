@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "lint": "jshint hello.js hello.test.js",
-    "test": "npm run lint && mocha hello.test.js && echo '0'"
+    "test": "npm run lint && mocha hello.test.js && node hello.js"
   },
   "devDependencies": {
     "chai": "^3.4.0",
