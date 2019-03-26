@@ -4,5 +4,6 @@ function hello(){
   return 'Hello World';
 }
 
-hello()
+hello();
+
 module.exports = hello;
