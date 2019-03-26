@@ -12,6 +12,6 @@ describe('run hello.js', function() {
 
 describe('run world.js', function() {
   it('should return "World"', function() {
-    expect(world()).to.equal('world');
+    expect(world()).to.equal('World');
   });
 });
